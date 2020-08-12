@@ -1,0 +1,96 @@
+@media only screen and (max-width:1200px) {
+  .hero-text-box{
+      width:100%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+}
+
+@media only screen and (max-width:1023px) {
+     .main-nav{
+        width:100%;
+         padding-left:25%;
+        margin-top:-10%;
+    }
+    .sticky .main-nav {
+      margin-top:-10%;  
+    }
+   
+}
+@media only screen and (max-width:940px) {
+    .main-nav{
+        width:100%;
+         padding-left:20%;
+    }
+}
+
+@media only screen and (max-width:904px) {
+    .main-nav{
+        width:100%;
+        padding-left:15%;
+        margin-top:-12%;
+    }
+        .main-nav li{
+        font-size:90%;
+        margin-left: 5%;
+    }
+    .first{
+        border-radius: 5%;
+    }
+}
+
+@media only screen and (max-width:747px) {
+    body{
+        font-size: 80%;
+    }
+    .main-nav{
+        display:none;
+    }
+    .main-nav{
+        float:left;
+    }
+    .main-nav li{
+        padding:0px;
+        display: block;
+        width:70%
+        
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+    }
+    .mobile-nav-icon{
+        margin-top:10px;
+        margin-left:70%;
+        position: fixed;
+        display: inline-block;
+    }
+    .sticky .mobile-nav-icon i{
+       margin-left:10%;
+        position: fixed;
+        color:#000;
+    }
+    .sticky .main-nav li:first-child{
+        margin-top: 20px;
+        padding:0px;
+    }
+}
+
+@media only screen and (max-width:634px) {
+    .main-nav{
+          width:100%;
+        padding-left:23%;
+         margin-top:-18%;
+    }
+    
+     .main-nav li{
+         font-size: 70%;
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    
+}
